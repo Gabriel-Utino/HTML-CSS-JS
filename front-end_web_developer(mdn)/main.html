@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>front-end web developer</title>
+  <title>HTML入門</title>
 </head>
 <body>
   <h1>HTML概論</h1>
@@ -15,7 +15,7 @@
   <p>pは<strong>ブロックレベル要素</strong>になります</p>
   <em>emの適当</em><em>emは<strong>インライン</strong>です</em>
   <br>
-  <img src="../html-64.png" alt="ブリーチ">
+  <img src="../html-64.png" alt="ブリーチアイコン">
   <h3>属性</h3>
   <p>属性はコンテンツの中で表示させたくない、要素に関する追加情報を保有する。</p>
   <a href="https://www.mozilla.org/" title="The Mozilla homepage" target="_blank">
@@ -37,5 +37,37 @@
   <p>省略できる所もあるがミスを減らすためにも基本は書いた方がいい</p>
   <p>また、単一引用符と二重引用符は混在させない限りどちらを使ってもかまわない</p>
   <h3>HTML文書の構成</h3>
+  <p>html要素：ページ上の全ての内容を囲む要素。</p>
+  <p>
+    head要素：閲覧者のための者ではなく、検索結果に現れるキーワードやページの説明文、
+    内容をスタイル設定するためのCSS、などが記載される。
+  </p>
+  <p>
+    meta要素：base, link, script, style, titleなど、他のHTMLメタ関連の要素では
+    表現する。
+  </p>
+  <p>
+    title要素：ページのタイトルを設定する。
+  </p>
+  <p>
+    body要素：テキスト、画像、動画、ゲーム、再生可能な音声トラックなどなど
+  </p>
+  <h3>HTML　特殊文字</h3>
+  <p>&lt; &gt; &quot; &apos; &amp;</p>
+  <p>
+    などなどHTMLの構文の一部で、それらをテキストとして記述する場合は
+    アンパサンドで始まり、セミコロンで入力しなくてはいけない。
+  </p>
+  <p>
+    詳しくは
+    <a 
+      href="https://ja.wikipedia.org/wiki/%E6%96%87%E5%AD%97%E5%8F%82%E7%85%A7"
+      target="_blank"
+    >
+      こちら
+    </a>
+  </p>
+  <h3>HTML　コメント</h3>
+  <p>&lt;!-- コメント内容 --&gt;</p>
 </body>
 </html>
