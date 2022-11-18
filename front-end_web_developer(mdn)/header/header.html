@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="Gabriel Camisiro Utino" content="HTMLの復習用に作成">
+  <link rel="icon" href="../../icon.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="./style.css">
+  <script href="./script.js" defer></script>
+  <title>HTMLのメタデータ</title>
+</head>
+
+<body>
+  <h1>メタデータ</h1>
+  <p>
+    ブラウザーに表示されるbody要素とは違いhead要素は閲覧者には
+    直接見せないメタデータを含んでいる
+  </p>
+  <p>&lt;meta charset="utf-8"&gt;<em>, </em> &lt;タイトル&gt;</p>
+  <h3>作成者と説明を追加</h3>
+  <p>多くのmeta要素はnameとcontent属性が含まれる。</p>
+  <p>
+    descriptionを指定するとページをより上位にできる可能性がある。
+    SEO（検索エンジン最適化）
+  </p>
+  <h3>サイトにアイコンを付ける</h3>
+  <p>
+    &lt;link rel="icon" href="../icon.jpg" type="image/x-icon"&gt;
+    をheadに付ける
+  </p>
+  <h3>CSSとJavaScriptを追加</h3>
+  <p>
+    格好よく見せるためにCSSや動画や地図、ゲームなどインタラクティブな
+    機能を追加する為にJavaScriptを用いる。それぞれlink要素、script要素で表す。
+  </p>
+  <p>
+    script要素もヘッド部に入れるべきであり、パスを含むsrc属性と、
+    基本的にページがHTMLの解析を完了した後にJavaScriptを読み込むように
+    ブラウザーに支持するdeferを記載する必要がある。
+  </p>
+  <p>
+    <strong>&lt;script src="my-js-file.js" defer&gt;&lt;/script&gt;</strong>
+  </p>
+  <p>
+    外部のスクリプトファイルを読む以外にも、直接script要素内に書き込むこともできる
+  </p>
+
+</body>
+
+</html>
