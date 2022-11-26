@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="Gabriel Camisiro Utino" content="HTMLの復習用に作成">
   <title>Hyperlink</title>
 </head>
+
 <body>
   <h1>ハイパーリンク</h1>
+  <h3>リンクの解剖</h3>
   <p>
     ハイパーリンクによって、文書を他の文書やリソースにリンクしたり、
     文書の特定の部分にリンクしたり、ウェブアドレスで利用できるようにする。
@@ -22,5 +25,35 @@
   <p>テキストの基礎ページは
     <a href="../text/text.html" title="テキストの基礎">こちら</a>
   </p>
+  <h2 id="Mailing_address">Mailing address</h2>
+  <h3>URLとパス</h3>
+  <p>
+    URLはファイルを見つけるためにパスを使用。ディレクトリー構造→ルート
+  </p>
+  <h3>文書フラグメント</h3>
+  <p>
+    HTML文書の上部だけでなく、特定の部分にリンクすることもできる。リンク先の要素に
+    id属性を割り当てる。
+  </p>
+  <div>
+    <p>
+      Want to write us a letter? Use our
+      <a href="contacts.html#Mailing_address">mailing address</a>.
+    </p>
+    <p>
+      The <a href="#Mailing_address">company mailing address</a>
+      can be found at the bottom of this page.
+    </p>
+  </div>
+  <h3>絶対 URL vs 相対 URL</h3>
+  <p>
+    <strong>絶対URL</strong>
+    : プロトコルとドメイン名を含む、ウェブ上の絶対位置で定義された位置を指す。
+    絶対 URL は、使用されている場所に関係なく、常に同じ場所を指します。
+  </p>
+  <p><strong>相対URL</strong>リンク元のファイルからの相対的な場所を指す。
+    相対 URL は内部で使用されているファイルの実際の場所によって、違う場所を指す。</p>
+  <h3>リンクのいい習慣</h3>
 </body>
+
 </html>
