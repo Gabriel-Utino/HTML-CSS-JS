@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="Gabriel Camisiro Utino" content="HTMLの復習用に作成">
+  <title>Hyperlink</title>
+</head>
+
+<body>
+  <h1>高度なテキスト整形</h1>
+  <h3>説明リスト</h3>
+  <p>例：</p>
+  <div>
+    <dl>
+      <dt>独り言 (soliloquy)</dt>
+      <dd>ドラマで、登場人物が自分自身にしゃべりかけ、内なる考えや感情や、そうなった過程を（他の登場人物ではなく）観客に対して表現するものです。</dd>
+      <dt>独白 (monologue)</dt>
+      <dd>ドラマで、登場人物が自分の考えを観客や他の登場人物に伝わるように喋るものです。</dd>
+      <dt>傍白 (aside)</dt>
+      <dd>ドラマで、登場人物が観客のみに対し、ユーモアやドラマチックな効果を狙ってコメントをします。これは通常は感情や、考えや、追加の背景情報です。</dd>
+    </dl>
+    <p>
+      &lt;dl&gt;<br>
+      　&lt;dt&gt;用語&lt;/dt&gt;<br>
+      　&lt;dd&gt;説明内容&lt;/dd&gt;<br>
+      &lt;/dl&gt;
+    </p>
+  </div>
+  <p>一つの用語に複数の説明</p>
+  <div>
+    <dl>
+      <dt>傍白 (aside)</dt>
+      <dd>ドラマでは、登場人物が観客のみに対し、ユーモアやドラマチックな効果を狙ってコメントをします。これは通常は感情や、考えや、追加の背景情報です。</dd>
+      <dd>文章では、現在のトピックに関連するコンテンツの一部ですが、本文の流れに直接合わないため、近くに表示されます（多くの場合、横に並んでいる枠の中に入ります）。</dd>
+    </dl>
+  </div>
+  <h3>ブロック引用</h3>
+  <p>
+    ブロックせベルの内容の一部が他から引用される場合→
+    &lt;blockquote&gt;要素で囲み、cite属性の中に引用元を占めるURLを記載する。
+  </p>
+  <p>引用元</p>
+  <p>The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or <em>HTML Block
+    Quotation Element</em>) indicates that the enclosed text is an extended quotation.</p>
+  <p>例：&lt;blockquote cite="URL"&gt;</p>
+  <p>こちらが引用です。</p>
+  <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+    <p>The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or <em>HTML Block
+        Quotation Element</em>) indicates that the enclosed text is an extended quotation.</p>
+  </blockquote>
+</body>
+
+
+</html>
