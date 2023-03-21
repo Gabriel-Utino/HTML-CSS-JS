@@ -37,6 +37,10 @@
   color: white;
 }
 
+.cant-select {
+  background-color: green !important;
+}
+
 #controller {
   position: fixed;
   top: 1rem;
