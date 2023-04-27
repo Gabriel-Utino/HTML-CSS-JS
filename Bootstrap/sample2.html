@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>グリッドシステム</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+    .box1 {
+      background-color: darkturquoise;
+    }
+    .box2 {
+      background-color: darkgreen;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="container">
+    <p>テスト1</p>
+    <div class="row">
+      <div class="box1 col-1">
+        box1
+      </div>
+      <div class="box2 col-1">
+        box2
+      </div>
+      <div class="box1 col-1">
+        box1
+      </div>
+      <div class="box2 col-1">
+        box2
+      </div>
+      <div class="box1 col-1">
+        box1
+      </div>
+      <div class="box2 col-1">
+        box2
+      </div>
+      <div class="box1 col-1">
+        box1
+      </div>
+      <div class="box2 col-1">
+        box2
+      </div>
+      <div class="box1 col-2">
+        box1
+      </div>
+      <div class="box2 col-2">
+        box2
+      </div>
+    </div>
+    <div class="row">
+      <div class="box2 col-1">
+        box2
+      </div>
+    </div>
+    <p>テスト２</p>
+    <div class="row">
+      <div class="box1 col-lg-2 col-md-4">
+        box1 lg2 md4
+      </div>
+      <div class="box2 col-md-8">
+        box2 md8
+      </div>
+      <div class="box1 col-lg-2">
+        box1 lg2
+      </div>
+      <p>テスト２</p>
+      <div class="row">
+        <div class="box1 col-8 offset-md-2">
+          box1 offset-md-2
+        </div>
+        <div class="box2 col-12">
+          box2 col-12
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+</body>
+
+</html>
